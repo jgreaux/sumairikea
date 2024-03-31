@@ -163,6 +163,9 @@ function getSkin() {
     if (isDisciplined) {
         skin = "angry.png"
     }
+    if (isNight()){
+        skin = "sleep.png"
+    }
     if (dead) {
         skin = "dead.png"
     }
