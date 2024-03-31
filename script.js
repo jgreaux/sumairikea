@@ -61,6 +61,7 @@ function getHealed() {
 function getScolded() {
     if(isDisciplined) return
     discipline --
+    fun --
     isDisciplined = true
     getSkin()
     updateDisplay()
