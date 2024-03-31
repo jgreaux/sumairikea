@@ -131,8 +131,8 @@ function getEnergy() {
 
 function getSkin() {
     let indisposed = 0
-    let skin = "main.png"
-    if(cycle == 21){
+    skin = "ok.png"
+    if(cycle > 20){
         skin = "happy.png"
     }
     if(hunger < 2){
