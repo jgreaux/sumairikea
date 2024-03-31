@@ -229,7 +229,6 @@ function runCycle() {
     getSad()
     getSick()
     getPooped()
-    updateDisplay()
     getEnergy()
     getDead()
     getSkin()
@@ -238,6 +237,7 @@ function runCycle() {
         setTimeout(runCycle, 5 * 1000 * 60)
     }
     cycle ++
+    updateDisplay()
 }
 
 //Interface
