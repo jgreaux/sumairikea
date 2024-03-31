@@ -136,7 +136,7 @@ function getSkin() {
         skin = "happy.png"
     }
     if(hunger < 2){
-        skin = "hunger.png"
+        skin = "hungry.png"
         indisposed ++
     }
     if(fun < 2){
