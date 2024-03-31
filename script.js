@@ -148,7 +148,7 @@ function getSkin() {
         skin = "sad.png"
         indisposed ++
     }
-    if(health){
+    if(!health){
         skin = "sick.png"
         indisposed ++
     }
