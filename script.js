@@ -28,6 +28,7 @@ function getFeeded() {
     energy --
     recover()
     spoil(hunger)
+    getSkin()
     updateDisplay()
 }
 
@@ -37,6 +38,7 @@ function getFun() {
     energy --
     recover()
     spoil(fun)
+    getSkin()
     updateDisplay()
 }
 
@@ -45,12 +47,14 @@ function getCleaned() {
     poop = false
     energy --
     recover()
+    getSkin()
     updateDisplay()
 }
 
 function getHealed() {
     health = true
     recover()
+    getSkin()
     updateDisplay()
 }
 
@@ -58,6 +62,7 @@ function getScolded() {
     if(isDisciplined) return
     discipline --
     isDisciplined = true
+    getSkin()
     updateDisplay()
 }
 
