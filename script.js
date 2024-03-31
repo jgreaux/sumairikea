@@ -249,7 +249,7 @@ function setImage() {
     if(!isStart || dead){
         return button("Start", start)
     }else{
-        return h("img",{src: '/assets/' + skin},'')
+        return h("img",{src: './assets/' + skin},'')
     }
 }
 
